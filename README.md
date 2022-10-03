@@ -1,20 +1,20 @@
 # DAHENG CAMERA on raspberry 4
 ## :white_check_mark: **What we need**
 >### :one: PyEnv instalation
-> >  sudo apt update && sudo apt upgrade    
-> >  sudo apt install -y git openssl libssl-dev libbz2-dev libreadline-dev libsqlite3-dev    
-> >  git clone https://github.com/yyuu/pyenv.git ~/.pyenv
-> >  sudo nano ~/.bash_profile    
+> >  :black_small_square: sudo apt update && sudo apt upgrade    
+> >  :black_small_square: sudo apt install -y git openssl libssl-dev libbz2-dev libreadline-dev libsqlite3-dev    
+> >  :black_small_square: git clone https://github.com/yyuu/pyenv.git ~/.pyenv
+> >  :black_small_square: sudo nano ~/.bash_profile    
 > > --- **Write this in bash.profile**    
 > >  export PYENV_ROOT="$HOME/.pyenv"    
 export PATH="$PYENV_ROOT/bin:$PATH"    
 eval "$(pyenv init -)"    
 > > --- **Reload .bash_profile.**    
-> > source ~/.bash_profile    
+> > :black_small_square: source ~/.bash_profile    
 >### :two: Python instalation    
-> > pyenv install 3.7.0    
+> > :black_small_square: pyenv install 3.7.0    
 > > --- **Set python3.7 to global** 
-> > pyenv global 3.7.0      
+> > :black_small_square: pyenv global 3.7.0      
 > > :white_check_mark: The maximum version of Python is 3.7, because starting from 3.8 the dll import won't work in this example.    
 >### 3️⃣:Installing the OpenCV, numpy and pillow    
 > > sudo apt-get install build-essential cmake pkg-config    
