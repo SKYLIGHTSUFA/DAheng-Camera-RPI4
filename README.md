@@ -12,4 +12,6 @@ eval "$(pyenv init -)"
 > > --- **Reload .bash_profile.**    
 > > source ~/.bash_profile    
 >### Python instalation    
+> > pyenv install 3.6.0    
+> > --- **Set python3.7 to global**    
 > > :white_check_mark: The maximum version of Python is 3.7, because starting from 3.8 the dll import won't work in this example.    
