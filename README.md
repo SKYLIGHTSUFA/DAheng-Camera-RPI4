@@ -15,7 +15,7 @@ eval "$(pyenv init -)"
 > > :black_small_square: pyenv install 3.7.0    
 > > --- **Set python3.7 to global**   
 > > :black_small_square: pyenv global 3.7.0      
-> > :warning: The maximum version of Python is 3.7, because starting from 3.8 the dll import won't work in this example.    
+> > :warning: The maximum version of Python is 3.7, because starting from 3.8 the dll import won't work in this example. :warning:    
 >### 3️⃣:Installing the OpenCV, numpy and pillow    
 > > :black_small_square: sudo apt-get install build-essential cmake pkg-config    
 > > :black_small_square: sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng-dev    
