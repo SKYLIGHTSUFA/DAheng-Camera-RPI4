@@ -1,5 +1,5 @@
 # DAHENG CAMERA on raspberry 4
-## :white_check_mark: **What we need**
+## :white_check_mark: **What we need?**
 >### :one: PyEnv instalation
 > >  :black_small_square: sudo apt update && sudo apt upgrade    
 > >  :black_small_square: sudo apt install -y git openssl libssl-dev libbz2-dev libreadline-dev libsqlite3-dev    
