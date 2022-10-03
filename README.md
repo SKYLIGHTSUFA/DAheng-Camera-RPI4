@@ -38,5 +38,5 @@ eval "$(pyenv init -)"
 > >  sudo python setup.py build    
 > >  sudo python setup.py install    
 > >  
-## **Using python scripts to start catch images from Daheng Camera**    
+## :white_check_mark: **Using python scripts to start catch images from Daheng Camera**    
 
