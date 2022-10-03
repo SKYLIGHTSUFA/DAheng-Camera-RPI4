@@ -13,7 +13,7 @@ eval "$(pyenv init -)"
 > > :black_small_square: source ~/.bash_profile    
 >### :two: Python instalation    
 > > :black_small_square: pyenv install 3.7.0    
-> > --- **Set python3.7 to global** 
+> > --- **Set python3.7 to global**   
 > > :black_small_square: pyenv global 3.7.0      
 > > :white_check_mark: The maximum version of Python is 3.7, because starting from 3.8 the dll import won't work in this example.    
 >### 3️⃣:Installing the OpenCV, numpy and pillow    
