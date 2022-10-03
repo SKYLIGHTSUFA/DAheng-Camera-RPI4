@@ -1,3 +1,5 @@
 # DAHENG CAMERA on raspberry 4
 ## **What we need**
-:white_check_mark: Максимальная версия Питона 3.7, потому что начиная с 3.8 импортирование dll не сработает в этом примере.
+>### PyEnv instalation
+> >  sudo apt update && sudo apt upgrade
+:white_check_mark: The maximum version of Python is 3.7, because starting from 3.8 the dll import won't work in this example.    
