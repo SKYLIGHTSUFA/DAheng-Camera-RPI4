@@ -16,7 +16,7 @@ eval "$(pyenv init -)"
 > > --- **Set python3.7 to global** 
 > > pyenv global 3.7.0      
 > > :white_check_mark: The maximum version of Python is 3.7, because starting from 3.8 the dll import won't work in this example.    
->### Installing the OpenCV and numpy    
+>### Installing the OpenCV, numpy and pillow    
 > > sudo apt-get install build-essential cmake pkg-config    
 > > sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng-dev    
 > > sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev    
@@ -29,7 +29,9 @@ eval "$(pyenv init -)"
 > > sudo apt-get install libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5    
 > > pip install opencv-contrib-python    
 > > pip install numpy    
+> > pip install pillow    
 >### Installing the Daheng SDK for arm    
-> >  [ Linux ARM SDK USB3+GigE v1.4.2206.9161](https://www.get-cameras.com/customerdownloads?submissionGuid=d07dff37-9898-4c4e-b892-5eec82915141) : download and extract zip files        
+> >  [ Linux ARM SDK USB3+GigE v1.4.2206.9161](https://www.get-cameras.com/customerdownloads?submissionGuid=d07dff37-9898-4c4e-b892-5eec82915141) : download and extract zip files     
+> >  cd _Your folder name_      
 ## **Using python scripts to start catch images from Daheng Camera**    
 
