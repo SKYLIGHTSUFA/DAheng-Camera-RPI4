@@ -11,12 +11,12 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"    
 > > --- **Reload .bash_profile.**    
 > > source ~/.bash_profile    
->### Python instalation    
+>### :two: Python instalation    
 > > pyenv install 3.7.0    
 > > --- **Set python3.7 to global** 
 > > pyenv global 3.7.0      
 > > :white_check_mark: The maximum version of Python is 3.7, because starting from 3.8 the dll import won't work in this example.    
->### Installing the OpenCV, numpy and pillow    
+>### 3️⃣:Installing the OpenCV, numpy and pillow    
 > > sudo apt-get install build-essential cmake pkg-config    
 > > sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng-dev    
 > > sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev    
