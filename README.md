@@ -11,6 +11,5 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"    
 > > --- **Reload .bash_profile.**    
 > > source ~/.bash_profile    
-
-
-:white_check_mark: The maximum version of Python is 3.7, because starting from 3.8 the dll import won't work in this example.    
+>### Python instalation    
+> > :white_check_mark: The maximum version of Python is 3.7, because starting from 3.8 the dll import won't work in this example.    
