@@ -33,5 +33,10 @@ eval "$(pyenv init -)"
 >### Installing the Daheng SDK for arm    
 > >  [ Linux ARM SDK USB3+GigE v1.4.2206.9161](https://www.get-cameras.com/customerdownloads?submissionGuid=d07dff37-9898-4c4e-b892-5eec82915141) : download and extract zip files     
 > >  cd _Your folder name_      
+> >  cd _next folder_    
+> >  cd api    
+> >  sudo python setup.py build    
+> >  sudo python setup.py install    
+> >  
 ## **Using python scripts to start catch images from Daheng Camera**    
 
