@@ -39,4 +39,17 @@ eval "$(pyenv init -)"
 > >  :black_small_square: sudo python setup.py install    
 > >  
 ## :white_check_mark: **Using python scripts to start catch images from Daheng Camera**    
+> > :black_small_square: sudo mkdir raspberry4_project    
+> > :black_small_square: cd raspberry4_project    
+> > :black_small_square: git clone https://github.com/SKYLIGHTSUFA/DAheng-Camera-RPI4.git    
+> > :black_small_square: cd DAheng-Camera-RPI4    
+> > :black_small_square: cd Python_SDK    
+> > :black_small_square: sudo mkdir images    
+> > :warning: Every time you start, you have to perform further actions.    
+> > :black_small_square: source ~/.bash_profile
+> > :black_small_square: pyenv global 3.7.0
+> > :black_small_square: python GxSingCamColorDisplay\(OpenCV\).py    
+> > :black_small_square: _Write the resolution of the image you want to receive and save in the images folder_    
+> > 
+> > 
 
