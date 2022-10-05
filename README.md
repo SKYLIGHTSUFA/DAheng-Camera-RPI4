@@ -46,8 +46,8 @@ eval "$(pyenv init -)"
 > > :black_small_square: cd Python_SDK    
 > > :black_small_square: sudo mkdir images    
 > > :warning: Every time you start, you have to perform further actions.    
-> > :black_small_square: source ~/.bash_profile
-> > :black_small_square: pyenv global 3.7.0
+> > :black_small_square: source ~/.bash_profile    
+> > :black_small_square: pyenv global 3.7.0    
 > > :black_small_square: python GxSingCamColorDisplay\(OpenCV\).py    
 > > :black_small_square: _Write the resolution of the image you want to receive and save in the images folder_    
 > > 
